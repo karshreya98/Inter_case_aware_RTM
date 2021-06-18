@@ -1,0 +1,11 @@
+{
+  "traffic_fines": {
+    "(Add penalty,Send for Credit Collection)": "batching-at-end",
+    "(Insert Fine Notification,Add penalty)": "non-batching",
+    "(Send Fine,Insert Fine Notification)": "batching-at-start"
+  },
+  "bpic2020":{
+    "Declaration FINAL_APPROVED by SUPERVISOR,Request Payment)": "batching-at-start",
+    "(Request Payment,Payment Handled)": "batching-at-end"
+  }
+}

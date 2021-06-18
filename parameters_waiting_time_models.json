@@ -1,0 +1,72 @@
+{
+  "traffic_fines": {
+    "(Add penalty,Send for Credit Collection)":
+      {
+        "params":{
+                "colsample_bytree": 0.5,
+                 "learning_rate": 0.05,
+                 "max_depth": 6,
+                 "n_clusters": 1,
+                 "n_estimators": 250,
+                 "subsample": 0.8,
+                "objective": "regression_l2",
+                "metric": "huber"
+
+          }
+    },
+    "(Insert Fine Notification,Add penalty)":
+    {
+      "params":{
+                "colsample_bytree": 0.5,
+                 "learning_rate": 0.05,
+                 "max_depth": 6,
+                 "n_clusters": 1,
+                 "n_estimators": 250,
+                 "subsample": 0.8,
+                "objective": "regression_l2",
+                "metric": "huber"
+          }
+    },
+    "(Send Fine,Insert Fine Notification)":
+    {
+      "params":{
+                "colsample_bytree": 0.5,
+                 "learning_rate": 0.05,
+                 "max_depth": 6,
+                 "n_clusters": 1,
+                 "n_estimators": 250,
+                 "subsample": 0.8,
+                "objective": "regression_l2",
+                "metric": "huber"
+          }
+    }
+  },
+    "bpic2020": {
+    "(Declaration FINAL_APPROVED by SUPERVISOR,Request Payment)":
+      {
+        "params":{
+                "colsample_bytree": 0.8,
+               "learning_rate": 0.05,
+               "max_depth": 4,
+               "n_clusters": 1,
+               "n_estimators": 250,
+               "subsample": 0.8,
+                "objective": "regression_l1",
+                "metric": "mae"
+          }
+    },
+    "(Request Payment,Payment Handled)":
+    {
+      "params":{
+                "colsample_bytree": 0.5,
+                 "learning_rate": 0.05,
+                 "max_depth": 6,
+                 "n_clusters": 1,
+                 "n_estimators": 250,
+                 "subsample": 0.8,
+                "objective": "regression_l2",
+                "metric": "huber"
+          }
+    }
+  }
+}
