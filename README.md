@@ -18,5 +18,6 @@ To create the inter-case features
 
 
 [1] E. L. Klijn and D. Fahland, "Identifying and Reducing Errors in Remaining Time Prediction due to Inter-Case Dynamics," 2020 2nd International Conference on Process Mining (ICPM), 2020, pp. 25-32, doi: 10.1109/ICPM49681.2020.00015
+  <br />
 [2] Denisov, Vadim & Belkina, Elena & Fahland, Dirk & Aalst, Wil. (2018). The Performance Spectrum Miner: Visual Analytics for Fine-Grained Performance Analysis of Processes. 
 
